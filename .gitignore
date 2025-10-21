@@ -1,0 +1,81 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+wheels/
+*.manifest
+*.spec
+pip-wheel-metadata/
+
+# === Virtual Environment ===
+venv/
+env/
+.venv/
+.mlenv/
+*.env
+*.venv
+
+# === Django ===
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+local_settings.py
+
+# === Environment Variables ===
+.env
+*.env
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS Specific ===
+.DS_Store
+Thumbs.db
+
+# === Bytecode Cache ===
+__pycache__/
+*.pyc
+
+# === Coverage / Testing ===
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# === Migrations (optional for new repos, but keep if your DB is versioned) ===
+# Uncomment next line if you want to ignore all migrations
+# */migrations/
+
+# === PyCharm ===
+*.iml
+.idea/
+
+# === Logs / Temp ===
+*.log
+*.pot
+*.py~
+*.swp
+*.tmp
+*.bak
+*.orig
+
+# === Node (if frontend present later) ===
+node_modules/
+npm-debug.log
+yarn-error.log
